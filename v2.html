@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Ndarusify Aplikasi Al-Quran &amp; Catatan Dalil">
+    <meta name="author" content="pondev">
+    <link rel="icon" href="iconforplaystore.png">
+
+    <title>Ndarusify Aplikasi Al-Quran &amp; Catatan Dalil</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://bootsnipp.com/bootstrap-builder/css/editor.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="https://bootsnipp.com/bootstrap-builder/narrow-jumbotron.css" rel="stylesheet"> -->
+  </head>
+
+  <body style="background-color: white;">
+
+    <div class="container">
+      <div class="header clearfix" style="margin-top: 20px;margin-bottom:20px;background-color:white;padding:5px;">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Ndarusify</h3>
+      </div>
+
+      <div class="jumbotron" style="width:100%;height:100%; background-color: white;">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZLnNSkjTLrPJ0v7Brrdm8h%2FCase-study-%253A-Redesain-Ndarusify%3Fnode-id%3D134%253A1057%26scaling%3Dmin-zoom%26page-id%3D134%253A523%26starting-point-node-id%3D134%253A1057" allowfullscreen></iframe>
+        <p style="margin: 0px; margin-top: 20px; margin-bottom: 10px; font-size: larger;">Ndarusify will be updated like the prototype above</p>
+        <p style="margin: 0px;"><a class="btn btn-lg btn-success" href="https://play.google.com/store/apps/details?id=com.pmohasim.quran" onclick="alert('Coming Soon')" target="_blank" role="button">Install Now</a></p>
+
+      </div>
+
+
+      <div class="row marketing" id="about">
+        <div class="col-lg-6">
+          <h4>Qur'an</h4>
+          <p>Dalam menu ini kamu bisa membaca alquran, mendengarkan seluruh ayat atau per ayat dan melihat terjemahan.&nbsp;</p>
+
+          <h4>Session</h4>
+          <p>Cukup dengan register dan login sekali kalian tetap berada di&nbsp; dalam aplikasi, tak perlu mengulang-ulang lagi proses login. Namun hal itu tetap kami sediakan tombol logout.</p>
+
+          
+          
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Dalil</h4>
+          <p>Di menu Dalil kamu dapat membuat catatan-catatan dalil yang pernah kamu dengar atau baru pertama dengar, dan yang terakhir kamu bisa copy dalil tersebut.</p>
+
+          <h4>Modern UI</h4>
+          <p>Meskipun tampilan terlihat Modern kami tetap menjaga kesederhanaan tampilan apikasi.</p>
+
+          
+          
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>© Ndarusify 2022</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        if(urlParams.get('download') == "1"){
+            
+            window.location.href = "https://play.google.com/store/apps/details?id=com.pmohasim.quran";
+            
+        }
+    
+    </script>
+
+</body>
+</html>
